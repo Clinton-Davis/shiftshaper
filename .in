@@ -1,17 +1,17 @@
 dj() {
-	python3 manage.py "$@"
+	python manage.py "$@"
 }
 
 djr() {
-	python3 manage.py runserver
+	python manage.py runserver
 }
 
 djs() {
-	python3 manage.py shell
+	python manage.py shell
 }
 
 djts() {
-	python3 manage.py tailwind start
+	python manage.py tailwind start
 }
 
 env() {
@@ -23,7 +23,7 @@ makemigrations() {
 }
 
 migrate() {
-	python3 manage.py migrate
+	python manage.py migrate
 }
 
 freeze(){

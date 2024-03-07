@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Apps
     "users.apps.UsersConfig",
+    "rosters",
+    "staff",
 ]
 
 MIDDLEWARE = [
