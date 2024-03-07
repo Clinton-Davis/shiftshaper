@@ -24,7 +24,9 @@ class Shift(models.Model):
 class Roster(models.Model):
     name = models.CharField(max_length=100, blank=True)
     week = models.PositiveSmallIntegerField(blank=False, null=False)
-    # location =  Going to be a foreignkey
+    location = models.ForeignKey(
+        Location, on_delete=models.CASCADE, related_name="rosters"
+    )
     start_date = models.DateField()
     end_date = models.DateField()
 

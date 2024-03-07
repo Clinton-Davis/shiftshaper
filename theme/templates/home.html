@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+<div class="container mx-auto">
+    <section class="flex items-center justify-center h-screen">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button id="create_btn" type="submit"
+                class="whitespace-nowrap rounded text-lg bg-slate-400 py-3 px-6 text-center font-prata text-white hover:bg-opacity-90 lg:w-auto"
+                x-transition:enter="transition ease-out duration-600 transform"
+                x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-600 transform"
+                x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
+                Create
+            </button>
+        </form>
+    </section>
+</div>
+{% endblock %}

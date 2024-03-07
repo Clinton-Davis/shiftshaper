@@ -1,0 +1,142 @@
+[
+    {
+        "model": "rosters.shift",
+        "pk": 1,
+        "fields": {
+            "day": "Monday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 2,
+        "fields": {
+            "day": "Monday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 3,
+        "fields": {
+            "day": "Tuesday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 4,
+        "fields": {
+            "day": "Tuesday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 5,
+        "fields": {
+            "day": "Wednesday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 6,
+        "fields": {
+            "day": "Wednesday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 7,
+        "fields": {
+            "day": "Thursday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 8,
+        "fields": {
+            "day": "Thursday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 9,
+        "fields": {
+            "day": "Friday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 10,
+        "fields": {
+            "day": "Friday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 11,
+        "fields": {
+            "day": "Saturday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 12,
+        "fields": {
+            "day": "Saturday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 13,
+        "fields": {
+            "day": "Sunday",
+            "name": "Day",
+            "start_time": "07:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "rosters.shift",
+        "pk": 14,
+        "fields": {
+            "day": "Sunday",
+            "name": "Night",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>
+		{% if page_meta and page_meta.title %}{{ page_meta.title }}{% else %}
+		ShiftShaper
+		{% endif %}
+	</title>
+
+	<meta name="description" content="We Shape your shifts">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/static/css/animate.css">
+	<link rel="stylesheet" href="/static/css/style.css">
+
+	<link rel="icon" type="image/x-icon" href="{% static '/images/favicon.ico' %}" />
+	{% comment %} <script src="https://unpkg.com/htmx.org@1.9.5"
+		integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous">
+	</script> {% endcomment %}
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+
+	{% tailwind_css %}
+</head>
+
+<body>
+
+
+	{% block content %}
+	{% endblock content %}
+	<!-- Back to top button -->
+
+	{% block extra_body %}
+	{% endblock %}
+</body>
+
+</html>

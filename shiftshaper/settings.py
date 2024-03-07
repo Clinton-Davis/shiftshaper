@@ -47,6 +47,12 @@ INSTALLED_APPS = [
     "users.apps.UsersConfig",
     "rosters",
     "staff",
+    # Third-party
+    "tailwind",
+    "theme",
+    "django_browser_reload",
+    "crispy_forms",
+    "crispy_tailwind",
 ]
 
 MIDDLEWARE = [
@@ -64,7 +70,7 @@ ROOT_URLCONF = "shiftshaper.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "theme/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -72,6 +78,10 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+            ],
+            "builtins": [
+                "crispy_forms.templatetags.crispy_forms_tags",
+                "crispy_forms.templatetags.crispy_forms_field",
             ],
         },
     },

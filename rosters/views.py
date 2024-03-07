@@ -5,9 +5,10 @@ from rosters.forms import RosterForm
 
 
 def home(request):
+    template_name = "home.html"
     form = RosterForm()
     context = {"form": form}
-    return render(request, "home.html", context)
+    return render(request, template_name, context)
 
 
 def my_partial_view(request):
